@@ -43,8 +43,8 @@ module.exports = {
     const botPrefix = global.GoatBot.config.prefix;
     const authorName = global.GoatBot.config.authorName;
     const authorFB = global.GoatBot.config.authorFB;
-    const authorInsta = "N/A";
-    const authorEmail = global.GoatBot.config.authorEmail;
+    const authorInsta = "dereckoboza_22";
+    const authorEmail global.GoatBot.config.authorEmail;
     const authorGithub = "N/A";
     const status = "𝗥𝗘𝗟𝗔𝗧𝗜𝗢𝗡𝗦𝗛𝗜𝗣 𝗪𝗜𝗧𝗛 𝗗𝗔𝗥𝗬𝗟𝗡 𝗚𝗟𝗢𝗕𝗜𝗢";
     const timeStart = Date.now();
