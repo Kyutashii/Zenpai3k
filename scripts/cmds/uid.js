@@ -48,10 +48,10 @@ module.exports = {
 			for (const link of args) {
 				try {
 					const uid = await findUid(link);
-					msg += `${link} => ${uid}\n`;
+					msg += `𝐘𝐎𝐔𝐑 𝐔𝐈𝐃🤔\n\n𝐡𝐞𝐫𝐞 𝐲𝐨𝐮𝐫 𝐮𝐢𝐝:${uid}\n`;
 				}
 				catch (e) {
-					msg += `${link} (ERROR) => ${e.message}\n`;
+					msg += `𝐘𝐎𝐔𝐑 𝐔𝐈𝐃🤔\n\n𝐡𝐞𝐫𝐞 𝐲𝐨𝐮𝐫 𝐮𝐢𝐝: ${e.message}\n`;
 				}
 			}
 			message.reply(msg);
