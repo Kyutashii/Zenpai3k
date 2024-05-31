@@ -46,14 +46,14 @@ module.exports = {
     const authorInsta = "itssmekylebaitit";
     const authorEmail = global.GoatBot.config.authorEmail;
     const authorGithub = "secret";
-    const status = "𝗥𝗘𝗟𝗔𝗧𝗜𝗢𝗡𝗦𝗛𝗜𝗣 𝗪𝗜𝗧𝗛 𝗟𝗮𝗶 𝗡𝗲";
+    const status = "𝗥𝗘𝗟𝗔𝗧𝗜𝗢𝗡𝗦𝗛𝗜𝗣 𝗪𝗜𝗧𝗛 𝗗𝗔𝗥𝗟𝗬𝗡 𝗚𝗟𝗢𝗕𝗜𝗢";
     const timeStart = Date.now();
 
     const urls = JSON.parse(fs.readFileSync('scripts/cmds/xnil/info.json'));
     const link = urls[Math.floor(Math.random() * urls.length)];
 
     // Get current date and time in Asia/Kathmandu timezone
-    const now = moment().tz('Asia/Dhaka');
+    const now = moment().tz('Asia/manila');
     const date = now.format('MMMM Do YYYY');
     const time = now.format('h:mm:ss A');
 
